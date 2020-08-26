@@ -1,13 +1,18 @@
 import React from 'react'
+import styles from "./styles.module.css";
 
 const SelectRole = ({setClient, setWindowRole}) =>{
     return (
-        <div>
-            <button>Ingresa como lavaautos</button>
-            <button onClick={() =>{
-                setClient(true)
-                setWindowRole(false)
-            }}>Ingresa como cliente</button>
+        <div className={styles.container}>
+            <div>
+                <button className={styles.button} onClick={() =>{
+                    setClient(true)
+                    setWindowRole(false)
+                }}>¿Quieres que lavemos tu auto?</button>
+            </div>
+            <div>
+                <button className={styles.button}>¿Quieres generar ganancias?</button>
+            </div>
         </div>
     )
 }

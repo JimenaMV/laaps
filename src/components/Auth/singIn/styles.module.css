@@ -1,0 +1,72 @@
+.container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+  }
+  
+  .logo {
+    width: 130px;
+    margin-top: 50px;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .info input {
+    margin-top: 10px;
+    width: 200px;
+    border-color: #e6e6e6;
+    border-radius: 10px;
+  }
+  
+  .btnLogin {
+    border: none;
+    background-color: #1c311b;
+    color: #ffffff;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    margin-top: 30px;
+    align-self: center;
+  }
+  
+  .btnGoogle img {
+    border-color: #1a1a1a;
+    color: #1a1a1a;
+    border-radius: 10px;
+    height: 30px;
+  }
+
+  .btnGoogle {
+    background-color: transparent;
+    border: none;
+  }
+  
+  .loginContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .noRegisterContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  .noRegister {
+    font-size: 14px;
+  }
+  
+  .registerHere {
+    font-size: 12px;
+    color: #e1b634;
+    background-color: transparent;
+    border: none;
+    font-size: 1em;
+  }
