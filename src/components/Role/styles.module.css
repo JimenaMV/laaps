@@ -1,0 +1,30 @@
+.container {
+    background-image: url("../assets/plantas.png");
+    /* background
+    background: no-repeat; */
+    display: flex;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .button {
+    background-color: #1c311b;
+    color: #ffffff;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+    font-size: 15px;
+    opacity: 0.8;
+    margin-top: 20px;
+    border: none;
+  }
+  
+  .button:hover {
+    background-color: #e1b634;
+    transform: scale(1.05);
+    cursor: pointer;
+  }

@@ -1,6 +1,6 @@
 import React, { useState, Fragment } from 'react'
-import SignUpClient from '../ClientProfile/AuthRouter/index'
 import SelectRole from '../Role/Role'
+import RouterSingIn from '../Auth/singInRouter/index'
 
 const RouterRole = () =>{
 
@@ -10,7 +10,7 @@ const RouterRole = () =>{
     return(
         <div>
             {(client && !windowRole) &&
-                <SignUpClient
+                <RouterSingIn
                 />
             }
             {(windowRole && !client) &&
