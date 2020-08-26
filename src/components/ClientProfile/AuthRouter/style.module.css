@@ -1,0 +1,18 @@
+.containerformSignup {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form .input{
+    width: 300px;
+}
+
+.form .btn{
+    width: 200px;
+}
