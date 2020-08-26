@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../assets/plantas.png");
+}
+.logo {
+  position: absolute;
+  margin-left: 250px;
+  margin-top: 150px;
+}
+
+.logo:hover {
+  opacity: 0.8;
+  transform: scale(1.02);
+  cursor: pointer;
+}
