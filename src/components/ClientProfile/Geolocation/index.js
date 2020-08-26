@@ -6,7 +6,7 @@ const Geolocation = () => {
   return (
     <div className={style.GeoContainer}>
       <div className={style.title}>
-        <p>Llegamos a ti</p>
+        <h3>Llegamos a ti</h3>
       </div>
 
       <div className={style.map}>

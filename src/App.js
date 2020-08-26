@@ -6,11 +6,19 @@ import Home from "./components/Principal/Home";
 import CarruselWelcome from "./components/Principal/CarruselWelcome";
 import Role from "./components/Principal/Role";
 import LogIn from "./components/ClientProfile/LogIn";
+import Services from "./components/ClientProfile/Services";
+import SelectCar from "./components/ClientProfile/SelectCar";
 
 function App() {
   return (
     <Router>
       <Switch>
+        <Route path="/car">
+          <SelectCar />
+        </Route>
+        <Route path="/services">
+          <Services />
+        </Route>
         <Route path="/geolocation">
           <Geolocation />
         </Route>

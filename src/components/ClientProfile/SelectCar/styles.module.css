@@ -1,0 +1,32 @@
+.carContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  justify-content: space-around;
+  height: 100vh;
+}
+
+img {
+  width: 200px;
+}
+
+.btnCar {
+  border: none;
+  background-color: #1c311b;
+  color: #ffffff;
+  border-radius: 10px;
+  width: 150px;
+  height: 30px;
+  margin-bottom: 50px;
+}
+
+.btnCar:hover {
+  background-color: #e1b634;
+  transform: scale(1.02);
+}
+
+ul {
+  list-style: none;
+}
